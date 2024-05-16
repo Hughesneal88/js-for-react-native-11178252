@@ -1,6 +1,7 @@
 # js-for-react-native-1178252
 
 **Name**: Neal Allison Hughes
+**Email**: <nahughes@st.ug.edu.gh>
 **id**: 11178252
 
 ## Task 1
