@@ -46,7 +46,5 @@ let inputNums = [1, 2, 3, 4, 5,]
 let names = ["Kofi", "Allison", "Sandra", "Selorm", "Rahim"]
 
 
-// const exportVal = formatArrayStrings(inputNums, names)
-// module.exports = { exportVal }
 
 module.exports = formatArrayStrings
