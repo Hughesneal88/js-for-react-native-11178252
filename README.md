@@ -19,11 +19,11 @@ to achieve this I used the modulo function to check if the number is divisible b
 
 ## Task 2
 
-In the **arrayManipulation.js file, I was asked to create a function [**formatArrayStrings**](arrayManipulation.js#L33) that takes:
+In the **arrayManipulation.js file, I was asked to create a function [**formatArrayStrings**](./arrayManipulation.js#L33) that takes:
 **Inputs**
 
 - An array of Strings
-- the array of numbers processed by [**processArray**](arrayManipulation.js#L19)
+- the array of numbers processed by [**processArray**](./arrayManipulation.js#L19)
 
 It then modifies the string array based on the corresponding index as:
 **Outputs**
@@ -33,7 +33,7 @@ It then modifies the string array based on the corresponding index as:
 
 ## Task 3
 
-I was asked to create a file **userInfo.js** with function [**createUserProfiles**](userInfo.js) that takes:
+I was asked to create a file **userInfo.js** with function [**createUserProfiles**](./userInfo.js#L16) that takes:
 **Inputs**
 
 - An array of names
