@@ -30,21 +30,36 @@ let processArray = (nums = []) =>{
 
 // console.log(processArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 
-let formatArrayStrings = (strArray = [], processedNums = processArray(nums)) => {
-    for ( let i=0; i < strArray.length; i++) {
-        if (processedNums[i] % 2 == 0){
-            strArray[i] = strArray[i].toUpperCase()
-        }else{
-            strArray[i] = strArray[i].toLowerCase()
+// let formatArrayStrings = (strArray = [], processedNums = processArray(processedNums)) => {
+//     processArr = []
+//     for (let i = 0; i < strArray.length; i++) {
+//         if (processedNums[i] % 2 == 0) {
+//             processArr[i] = strArray[i].toUpperCase();
+//         } else {
+//             processArr[i] = strArray[i].toLowerCase();
+//         }
+//         return processArr
+//      }
+// }
+let formatArrayStrings = (strArray = [], processedNums = processArray(processedNums)) => {
+    processArr = []
+    for (let i = 0; i < strArray.length; i++) {
+        if (processedNums[i] % 2 == 0) {
+            processArr[i] = strArray[i].toUpperCase();
+        } else {
+            processArr[i] = strArray[i].toLowerCase();
         }
-        return strArray
     }
-
+    return processArr;
 }
+
+
 
 let inputNums = [1, 2, 3, 4, 5,]
 let names = ["Kofi", "Allison", "Sandra", "Selorm", "Rahim"]
 
+
+console.log(formatArrayStrings(names, inputNums))
 
 
 module.exports = formatArrayStrings
